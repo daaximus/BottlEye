@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\fmt">
+      <UniqueIdentifier>{0c4a0d52-9a82-4d3f-9a16-c7500b15325c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logging">
+      <UniqueIdentifier>{1c69057d-6d08-43b0-90f1-f14b1a42e09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battleye">
+      <UniqueIdentifier>{485f60e6-89b2-4606-8d47-d79821e828ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battleye">
+      <UniqueIdentifier>{16a4f5db-842f-48d4-ba43-77c6665893b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delegate.cpp">
+      <Filter>Source Files\battleye</Filter>
+    </ClCompile>
+    <ClCompile Include="emulator.cpp">
+      <Filter>Source Files\battleye</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>Source Files\battleye</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sync\Programming\C++\Libraries\fmt\format.cc">
+      <Filter>Source Files\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sync\Programming\C++\Libraries\fmt\posix.cc">
+      <Filter>Source Files\fmt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spinner.hpp">
+      <Filter>Header Files\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="loggr.hpp">
+      <Filter>Header Files\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="be_client.hpp">
+      <Filter>Header Files\battleye</Filter>
+    </ClInclude>
+    <ClInclude Include="delegate.hpp">
+      <Filter>Header Files\battleye</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>Header Files\battleye</Filter>
+    </ClInclude>
+    <ClInclude Include="be_packet.hpp">
+      <Filter>Header Files\battleye</Filter>
+    </ClInclude>
+    <ClInclude Include="emulator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
